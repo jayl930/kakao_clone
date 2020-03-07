@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/08873d21b7.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | Kakao-clone</title>
   </head>
   <body>
@@ -25,10 +26,10 @@
     <header class="header">
       <div class="header__header-column">
         <a href="more.html" class="header__back-btn">
-          <i class="fas fa-arrow-left fa-2x"></i>
+          <i class="fas fa-arrow-left"></i>
         </a>
+        <h1 class="header__title">Settings</h1>
       </div>
-      <h1 class="header__title">Settings</h1>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
@@ -36,6 +37,28 @@
       </div>
     </header>
     <main class="settings">
+      <section class="settings__sections">
+        <ul class="setting__list">
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fab fa-microblog"></i>
+            </span>
+            <span class="settings__title">Notices</span>
+          </li>
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-flask"></i>
+            </span>
+            <span class="settings__title">Kakao Lab</span>
+          </li>
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-info-circle"></i>
+            </span>
+            <span class="settings__title">Version</span>
+          </li>
+        </ul>
+      </section>
       <section class="settings__sections">
         <ul class="setting__list">
           <li class="settings__settings">
@@ -56,8 +79,51 @@
             </span>
             <span class="settings__title">Friends</span>
           </li>
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-comment"></i>
+            </span>
+            <span class="settings__title">Chats</span>
+          </li>
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-sms"></i>
+            </span>
+            <span class="settings__title">SMS Messages</span>
+          </li>
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+            <span class="settings__title">Display</span>
+          </li>
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-phone-volume"></i>
+            </span>
+            <span class="settings__title">Call</span>
+          </li>
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-ellipsis-h"></i>
+            </span>
+            <span class="settings__title">Advance</span>
+          </li>
+        </ul>
+      </section>
+      <section class="settings__sections">
+        <ul class="setting__list">
+          <li class="settings__settings">
+            <span class="settings__icon">
+              <i class="fas fa-question-circle"></i>
+            </span>
+            <span class="settings__title">Support</span>
+          </li>
         </ul>
       </section>
     </main>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen smaller</span>
+    </div>
   </body>
 </html>

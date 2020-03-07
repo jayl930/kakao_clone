@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/08873d21b7.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao-clone</title>
   </head>
   <body>
@@ -37,7 +38,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
             <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -52,10 +53,10 @@
         </div>
       </header>
       <div class="friends__plus">
-        <h5 class="friends__plus-title">Plus friends</h5>
+        <h5 class="friends__title">Plus friends</h5>
         <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -66,9 +67,9 @@
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friend friend friend--lg">
+        <li class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Vicky Mu
@@ -80,8 +81,10 @@
           </div>
           <div class="friends__column">
             <div class="friend__now-listening">
-              <span>I dont like music</span>
-              <i class="fas fa-play"></i>
+              <span>
+                Any Song - Zico
+                <i class="fas fa-play"></i>
+              </span>
             </div>
           </div>
         </li>
@@ -96,6 +99,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">2</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
@@ -111,5 +115,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen smaller</span>
+    </div>
   </body>
 </html>

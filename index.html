@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/08873d21b7.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao-clone</title>
   </head>
   <body>
@@ -27,7 +28,7 @@
         <h1 class="header__title">Chats</h1>
       </div>
       <div class="header__header-column">
-        <span class="hedaer__icon">
+        <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
         <span class="header__icon">
@@ -42,17 +43,23 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__column">
-              <img src="images/avatar.jpg" class="chat__avartar g-avatar" />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Vicky
-                </span>
-                <span class="chat__preview">Going Home</span>
+            <div class="friends__friend friend friend--lg">
+              <div class="friend__column">
+                <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Vicky Mu
+                  </span>
+                  <span class="friend__bottom-text">
+                    Im very Cute
+                  </span>
+                </div>
               </div>
-            </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
+              <div class="friends__column">
+                <span class="chat__timestamp">
+                  March 6
+                </span>
+              </div>
             </div>
           </a>
         </li>
@@ -67,6 +74,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">2</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
@@ -82,5 +90,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen smaller</span>
+    </div>
   </body>
 </html>
