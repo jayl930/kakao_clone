@@ -12,14 +12,14 @@
   color: white;
   font-size: 28px;
   text-align: center;
-  line-height: 1.5
+  line-height: 1.5;
   padding: 0px 20px;
   display: none;
   z-index: 4;
 }
 
 @media screen and (min-width: 550px) {
-    .bigScreen{
-        display: flex;
-    }
+  .bigScreen {
+    display: flex;
+  }
 }
